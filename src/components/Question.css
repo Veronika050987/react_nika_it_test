@@ -1,0 +1,23 @@
+.question h3
+{
+    text-align: center;
+}
+.question ul
+{
+    list-style: none;
+    margin: 0px;
+    padding-inline-start: 0px;
+}
+.question li
+{
+    box-shadow: 0 0 4px 1px #4B0082;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+.question li:hover
+{
+    background-color: #E0FFFF;
+}
