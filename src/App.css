@@ -46,18 +46,21 @@ body
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #D8BFD8;
+  background-image: url('./TEST IMAGE.jpg');
+  background-size: auto;
+  background-position: center;
+  /* background-color: #D8BFD8; */
   margin: 180px;
 }
 .main
 {
-  width: 420px;
+  width: 500px;
   background-color: white;
   color:#4B0082;
   border-radius: 10px;
-  box-shadow: 0 0 30px 6px #7B68EE;
+  box-shadow: 0 0 30px 7px #7B68EE;
   padding:25px;
-  margin-top: 50px;
+  margin-top: 60px;
 }
 .menu-btn
 {

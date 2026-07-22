@@ -50,21 +50,63 @@ const allTests = {
     },
     {
       title: "При компиляции они всегда PHP разрешены.",
-      variants: ["Constants", "Magic constants", "Functions"],
+      variants: ["массивы", "магические константы", "функции"],
       correct: 1
     },
   ],
-  javascript: [
+  FreeBSD: [
     {
-      title: "Какой метод преобразует строку в целое число?",
-      variants: ["parseInt()", "parseFloat()", "Math.round()"],
-      correct: 0
+      title: "Открыть для измененья файл поможет текстовый...",
+      variants: ["cry", "why", "VI"],
+      correct: 2
     },
     {
-      title: "Где правильно создавать переменные в современном JS?",
-      variants: ["var", "let / const", "global"],
+      title: "Демонов ты разбуди – запускай...",
+      variants: ["DPD", "FreeBSD", "GPT"],
       correct: 1
-    }
+    },
+     {
+      title: "Решить HTTP задачи поможет сервер нам...",
+      variants: ["match", "touch", "apache"],
+      correct: 2
+    },
+     {
+      title: "Чтобы пользователя создать, какую команду нам нужно набрать?",
+      variants: ["userget", "useradd", "usershow"],
+      correct: 1
+    },
+     {
+      title: "Чтобы выключить систему, ... вводи ты смело.",
+      variants: ["init 0", "init 2", "init 4"],
+      correct: 0
+    },
+  ],
+  React_and_ASP: [
+    {
+      title: "Он память компоненту дал, чтоб помнить всё подряд: что кликнул ты, что записал - вернёт всё без преград.",
+      variants: ["useEffect", "use", "useState"],
+      correct: 2
+    },
+    {
+      title: "При криптографии нужна верификация. Авторизация важна и аутентификация. Защита данных – важный путь. Здесь бдительность нельзя спугнуть. Для безопасности нужны всегда...",
+      variants: ["home AI", "API-ключи", "GPT"],
+      correct: 1
+    },
+     {
+      title: "Сравнить с граблями его можно, но вернуть нам компонент поможет.",
+      variants: ["@page", "@code", "@rendermode"],
+      correct: 2
+    },
+     {
+      title: "Без неё, как без души, ASP проект не может быть.",
+      variants: ["модель", "страница", "форма"],
+      correct: 0
+    },
+     {
+      title: "Создать проект нам новый нужно, без базы данных нам никак. Чтоб рос каркас архитектуры дружно, ... поможет нам.",
+      variants: ["модификация", "миграция", "ротация"],
+      correct: 1
+    },
   ]
 };
 
@@ -136,8 +178,9 @@ function App() {
       <div className="main menu-container" style={{ textAlign: 'center', padding: '20px' }}>
         <h2>Выберите тест для прохождения:</h2>
         <div style={{ display: 'flex', gap: '15px', justifyContent: 'center', marginTop: '20px' }}>
-          <button className="menu-btn" onClick={() => setActiveTest('php')}>Тест по PHP</button>
-          <button className="menu-btn" onClick={() => setActiveTest('javascript')}>Тест по JavaScript</button>
+          <button className="menu-btn" onClick={() => setActiveTest('php')}>PHP</button>
+          <button className="menu-btn" onClick={() => setActiveTest('FreeBSD')}>FreeBSD</button>
+          <button className="menu-btn" onClick={() => setActiveTest('React_and_ASP')}>React_and_ASP</button>
         </div>
       </div>
     );
