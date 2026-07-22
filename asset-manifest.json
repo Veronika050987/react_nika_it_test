@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/react_nika_it_test/static/css/main.86da7bfd.css",
-    "main.js": "/react_nika_it_test/static/js/main.cd1a121b.js",
+    "main.css": "/react_nika_it_test/static/css/main.e1e5878d.css",
+    "main.js": "/react_nika_it_test/static/js/main.f21629db.js",
+    "static/media/TEST IMAGE.jpg": "/react_nika_it_test/static/media/TEST IMAGE.abcac3c8c7d012724a31.jpg",
     "static/media/logo.svg": "/react_nika_it_test/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/react_nika_it_test/index.html",
-    "main.86da7bfd.css.map": "/react_nika_it_test/static/css/main.86da7bfd.css.map",
-    "main.cd1a121b.js.map": "/react_nika_it_test/static/js/main.cd1a121b.js.map"
+    "main.e1e5878d.css.map": "/react_nika_it_test/static/css/main.e1e5878d.css.map",
+    "main.f21629db.js.map": "/react_nika_it_test/static/js/main.f21629db.js.map"
   },
   "entrypoints": [
-    "static/css/main.86da7bfd.css",
-    "static/js/main.cd1a121b.js"
+    "static/css/main.e1e5878d.css",
+    "static/js/main.f21629db.js"
   ]
 }
